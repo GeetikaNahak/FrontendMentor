@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    /* font-size: 2rem; */
+}
+
+body{
+    background-color: rgba(178, 202, 235, 0.788);
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.container{
+    margin-left: 20vh;
+    margin-right: 20vh;
+    
+    width: 50vh;
+    background-color: white;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    height: 80vh;
+    border-radius: 1vh;
+}
+.imagecontainer{
+    background-image: url('./images/image-qr-code.png');
+    height: 45vh;
+    width:45vh;
+    margin:2vh;
+    position: relative;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: contain;
+    object-fit: cover;
+    border-radius: 1vh;
+   
+}
+.attribution{
+    padding:2vh;
+    margin: 3vh;
+    text-align: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+
+}
+.bold{
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
